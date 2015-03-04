@@ -1,6 +1,47 @@
+/*@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);*/
+
 body, :root {
 	font-size: 16px;
+    font-family:'PT Sans Narrow', 'Source Han Sans TWHK', sans-serif;
 }
+
 .brand {
 	color: #006F17;
+}
+
+@media (min-width: 992px) {
+    .nav-highlight, .nav-highlight a {
+        background-color: #f60;
+        background-color: #006f17 !important;
+        color: #fff !important;
+    }
+}
+
+#introjumbo {
+    text-align: center;
+    color: #006f17;
+    background-image: url("../images/logo/sitcon-x-hk.svg");
+    background-size: 300px 300px;
+    background-position: left;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+#introjumbo hr {
+    border-color: #006f17;
+    width: 30%;
+}
+
+.dark-sections {
+    color: #fff;
+    background-color: #111;
+}
+
+.content-container {
+    font-size: 1.1em;
+    padding-bottom: 2em;
+}
+
+.content {
+    padding-top: 1.5em;
 }
