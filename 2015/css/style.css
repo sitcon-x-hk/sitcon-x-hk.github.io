@@ -1,12 +1,10 @@
-/*@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);*/
-
 body, :root {
-	font-size: 16px;
-    font-family:'PT Sans Narrow', 'Source Han Sans TWHK', sans-serif;
+    font-size: 18px;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 .brand {
-	color: #006F17;
+	color: #006F17 !important;
 }
 
 @media (min-width: 992px) {
@@ -20,7 +18,7 @@ body, :root {
 #introjumbo {
     text-align: center;
     color: #006f17;
-    background-image: url("../images/logo/sitcon-x-hk-color.svg");
+    background-image: url("../../images/logo/sitcon-x-hk-color.svg");
     background-size: 300px 300px;
     background-position: left;
     background-repeat: no-repeat;

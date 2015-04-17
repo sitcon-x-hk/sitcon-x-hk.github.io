@@ -8,8 +8,8 @@
     <title>SITCON x HK</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/2015/css/style.css" type="text/css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -26,17 +26,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand nav-highlight" href="#introjumbo">SITCON x HK</a>
+            <a id="brand" class="navbar-brand" href="/2015/">SITCON x HK</a>
         </div>
         <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#About">About</a></li>
-                <li><a href="#Theme">Theme</a></li>
-                <li><a href="#Location">Location</a></li>
-                <!--
-                <li><a href="#Speaker">Speaker</a></li>
-                -->
-                <li><a href="#Schedule">Schedule</a></li>
+                <li><a id="about" href="/2015/about/">About</a></li>
+                <li><a id="location" href="/2015/venue/">Venue</a></li>
+                <li><a id="schedule" href="/2015/agenda">Agenda</a></li>
             </ul>
         </nav>
     </div>
@@ -47,7 +43,8 @@
             <div class="col-sm-7 col-sm-push-3">
                 <h1>Hong Kong Student IT Conference 2015</h1>
                 <hr>
-                <h2>27 June 2015<br>Conference Hall 6, Hong Kong Science Park, Shatin</h2>
+                <h2>Get to know and join the Open Source</h2>
+                <p>27 June 2015<br>Conference Hall 6, Hong Kong Science Park, Shatin</p>
             </div>
         </div>
     </div>
@@ -66,129 +63,9 @@
                             data-show-border="true">
                     </div>
                 </div>
-                <div id="About" class="col-sm-7 col-md-pull-2 content">
-                    <h2>What is SITCON x HK?</h2>
-                    <p>
-                        SITCON Student IT Conference, formed by students with passion in IT,
-                        a student-centered organisation, hope to provide a stage for all Hong Kong
-                        students to express and develop their talent with Open Source.
-                        The theme of year 2015 is <strong style="color: #006f17; font-size: 150%;">'Get to know and join the Open Source'</strong>,
-                        hoping to join students in the world of Open Source.
-                    </p>
+                <div class="col-sm-7 col-md-pull-2 content">
+                    <div class="markdown" data-markdown="theme.md"></div>
                 </div>
-            </div>
-            <div id="Theme"  class="row content">
-                <div class="col-sm-7">
-                    <h2>Theme</h2>
-                    <h3>Get to know and join the Open Source</h3>
-                    <p>
-                        Open Source product is surrounding your live, such as 7-zip, Google Chrome, Firefox and Android.
-                        Do you think open source only can be joined by somebody who can code very well?
-                        The truth is that you can also join the open source even you are just a student.
-                        Open Source is not just a technology term but what's more, it is a kind of values,
-                        culture and societies. In the first year of SITCON x HK,
-                        we will find out what is Open Source and how a normal student can join the Open Source
-                        and start contributing.
-                    </p>
-                </div>
-            </div>
-            <div class="content-container">
-                <h2 id="Location">Location</h2>
-                <div id="googleMap" style="width:100%; height: 400px;"></div>
-            </div>
-            <div id="Schedule" class="content-container content">
-                <h2>Schedule</h2>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Time</th>
-                            <th>Title</th>
-                            <th>Speaker</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>10:00 - 10:45</td>
-                            <td>Keynote</td>
-                            <td>Speaker arranged by HKOSC</td>
-                        </tr>
-                        <tr>
-                            <td>10:45 - 11:00</td>
-                            <td>Break</td>
-                            <td> - </td>
-                        </tr>
-                        <tr>
-                            <td>11:00 - 11:40</td>
-                            <td>From 1 to 2300: A Brief History of SITCON and how it was organized</td>
-                            <td>RSChiang</td>
-                        </tr>
-                        <tr>
-                            <td>11:40 - 11:55</td>
-                            <td>Break</td>
-                            <td> - </td>
-                        </tr>
-                        <tr>
-                            <td>11:55 - 12:35</td>
-                            <td>Google Code-In — 開源，從小開始</td>
-                            <td>海豹 &amp; Denny Huang</td>
-                        </tr>
-                        <tr>
-                            <td>12:35 - 14:05</td>
-                            <td>Lunch</td>
-                            <td> - </td>
-                        </tr>
-                        <tr>
-                            <td>14:05 - 14:50</td>
-                            <td>Keynote</td>
-                            <td>Speaker arranged by HKOSC</td>
-                        </tr>
-                        <tr>
-                            <td>14:50 - 15:05</td>
-                            <td>Break</td>
-                            <td> - </td>
-                        </tr>
-                        <tr>
-                            <td>15:05 - 15:45</td>
-                            <td>[Workshop] Web Audio API: The Basics</td>
-                            <td>Licson</td>
-                        </tr>
-                        <tr>
-                            <td>15:45 - 16:00</td>
-                            <td>Break</td>
-                            <td> - </td>
-                        </tr>
-                        <tr>
-                            <td>16:00 - 16:20</td>
-                            <td>SITCON新手村：從夏令營開始</td>
-                            <td>ws育慈</td>
-                        </tr>
-                        <tr>
-                            <td>16:20 - 16:40</td>
-                            <td>Using MeteorJs to create real-time application</td>
-                            <td>Jack Lam</td>
-                        </tr>
-                        <tr>
-                            <td>16:40 - 16:55</td>
-                            <td>Break</td>
-                            <td> - </td>
-                        </tr>
-                        <tr>
-                            <td>16:55 - 17:35</td>
-                            <td>Tinyboy, Open Design 3D printer</td>
-                            <td>To be confirmed</td>
-                        </tr>
-                        <tr>
-                            <td>17:35 - 18:05</td>
-                            <td>Lightning Talks</td>
-                            <td> - </td>
-                        </tr>
-                        <tr>
-                            <td>18:05 - 18:20</td>
-                            <td>Closing Ceremony</td>
-                            <td> - </td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
         </div>
     </div>
@@ -207,10 +84,12 @@
     <div id="fb-root"></div>
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown.js/0.5.0/markdown.min.js"></script>
 <script src="/js/jquery.nicescroll.min.js"></script>
 <script src="/js/jquery.scrollTo.min.js"></script>
 <script src="js/navbar.js"></script>
 <script src="js/main.js"></script>
+<script src="/js/markdown.js"></script>
+<script src="/2015/js/social.js"></script>
 </body>
 </html>
