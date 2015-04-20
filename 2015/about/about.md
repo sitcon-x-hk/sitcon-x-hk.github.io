@@ -1,5 +1,3 @@
-What is SITCON x HK?
-====================
 SITCON Student IT Conference, formed by students with passion in IT,
 a student-centered organisation, hope to provide a stage for all Hong Kong
 students to express and develop their talent with Open Source.
